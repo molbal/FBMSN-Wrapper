@@ -2,7 +2,7 @@
   "name": "fbmsn_wrapper",
   "productName": "Facebook Messenger",
   "description": "Messenger.com wrapper",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Balint Molnar <molbal@outlook.com>",
   "copyright": "",
   "homepage": "http://whereismyfood.net/messenger",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "postinstall": "install-app-deps",
-    "build": "gulp build",
+    "build": "gulp build --ignore=dist",
     "prerelease": "gulp build --env=production",
     "release": "build",
     "start": "gulp start",
